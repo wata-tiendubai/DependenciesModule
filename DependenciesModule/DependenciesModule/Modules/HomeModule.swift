@@ -9,6 +9,7 @@ import UIKit
 
 public protocol HomeModuleProtocol {
     func homeScreen() -> UIViewController
+    func mainScreen() -> UIViewController
 }
 
 extension Dependencies {
